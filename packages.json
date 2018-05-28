@@ -105,6 +105,24 @@
     "repo": "https://github.com/purescript/purescript-control.git",
     "version": "v4.0.0"
   },
+  "coroutines": {
+    "dependencies": [
+      "bifunctors",
+      "either",
+      "freet",
+      "identity",
+      "maybe",
+      "newtype",
+      "parallel",
+      "prelude",
+      "profunctor",
+      "tailrec",
+      "transformers",
+      "tuples"
+    ],
+    "repo": "https://github.com/purescript-contrib/purescript-coroutines.git",
+    "version": "v5.0.0"
+  },
   "datetime": {
     "dependencies": [
       "bifunctors",
@@ -369,6 +387,20 @@
     "repo": "https://github.com/purescript/purescript-invariant.git",
     "version": "v4.0.0"
   },
+  "js-date": {
+    "dependencies": [
+      "datetime",
+      "effect",
+      "enums",
+      "foreign",
+      "functions",
+      "integers",
+      "maybe",
+      "prelude"
+    ],
+    "repo": "https://github.com/purescript-contrib/purescript-js-date.git",
+    "version": "v6.0.0"
+  },
   "lazy": {
     "dependencies": [
       "control",
@@ -408,6 +440,21 @@
       "unfoldable"
     ],
     "repo": "https://github.com/purescript/purescript-lists.git",
+    "version": "v5.0.0"
+  },
+  "machines": {
+    "dependencies": [
+      "arrays",
+      "control",
+      "effect",
+      "lists",
+      "maybe",
+      "prelude",
+      "profunctor",
+      "tuples",
+      "unfoldable"
+    ],
+    "repo": "https://github.com/purescript-contrib/purescript-machines.git",
     "version": "v5.0.0"
   },
   "math": {
@@ -781,6 +828,32 @@
     "repo": "https://github.com/purescript/purescript-validation.git",
     "version": "v4.0.0"
   },
+  "web-clipboard": {
+    "dependencies": [
+      "maybe",
+      "nullable",
+      "prelude",
+      "unsafe-coerce",
+      "web-events",
+      "web-html"
+    ],
+    "repo": "https://github.com/purescript-web/purescript-web-clipboard.git",
+    "version": "v1.0.0"
+  },
+  "web-dom": {
+    "dependencies": [
+      "effect",
+      "enums",
+      "maybe",
+      "newtype",
+      "nullable",
+      "prelude",
+      "unsafe-coerce",
+      "web-events"
+    ],
+    "repo": "https://github.com/purescript-web/purescript-web-dom.git",
+    "version": "v1.0.0"
+  },
   "web-events": {
     "dependencies": [
       "datetime",
@@ -794,6 +867,83 @@
       "unsafe-coerce"
     ],
     "repo": "https://github.com/purescript-web/purescript-web-events.git",
+    "version": "v1.0.0"
+  },
+  "web-file": {
+    "dependencies": [
+      "effect",
+      "enums",
+      "foreign",
+      "integers",
+      "math",
+      "maybe",
+      "media-types",
+      "nullable",
+      "partial",
+      "prelude",
+      "unsafe-coerce",
+      "web-events"
+    ],
+    "repo": "https://github.com/purescript-web/purescript-web-file.git",
+    "version": "v1.0.0"
+  },
+  "web-html": {
+    "dependencies": [
+      "effect",
+      "enums",
+      "foreign",
+      "functions",
+      "js-date",
+      "maybe",
+      "media-types",
+      "newtype",
+      "nullable",
+      "prelude",
+      "unsafe-coerce",
+      "web-dom",
+      "web-events",
+      "web-file",
+      "web-storage"
+    ],
+    "repo": "https://github.com/purescript-web/purescript-web-html.git",
+    "version": "v1.0.0"
+  },
+  "web-storage": {
+    "dependencies": [
+      "effect",
+      "maybe",
+      "nullable",
+      "prelude",
+      "unsafe-coerce",
+      "web-events"
+    ],
+    "repo": "https://github.com/purescript-web/purescript-web-storage.git",
+    "version": "v2.0.0"
+  },
+  "web-touchevents": {
+    "dependencies": [
+      "functions",
+      "maybe",
+      "nullable",
+      "prelude",
+      "unsafe-coerce",
+      "web-events",
+      "web-uievents"
+    ],
+    "repo": "https://github.com/purescript-web/purescript-web-touchevents.git",
+    "version": "v1.0.0"
+  },
+  "web-uievents": {
+    "dependencies": [
+      "effect",
+      "enums",
+      "maybe",
+      "nullable",
+      "prelude",
+      "unsafe-coerce",
+      "web-events"
+    ],
+    "repo": "https://github.com/purescript-web/purescript-web-uievents.git",
     "version": "v1.0.0"
   }
 }
