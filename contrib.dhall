@@ -20,4 +20,7 @@ in  [ contribpkg "arraybuffer-types" "v2.0.0"
     , contribpkg "unsafe-reference" "v3.0.0"
     , contribpkg "form-urlencoded" "v4.0.0"
     , contribpkg "profunctor-lenses" "v4.0.0"
+    , contribpkg "machines" "v5.0.0"
+    , contribpkg "coroutines" "v5.0.0"
+    , contribpkg "js-date" "v6.0.0"
     ]
