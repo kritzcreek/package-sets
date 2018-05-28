@@ -1,4 +1,23 @@
 {
+  "aff": {
+    "dependencies": [
+      "control",
+      "datetime",
+      "effect",
+      "either",
+      "exceptions",
+      "functions",
+      "newtype",
+      "parallel",
+      "partial",
+      "prelude",
+      "tailrec",
+      "transformers",
+      "unsafe-coerce"
+    ],
+    "repo": "https://github.com/slamdata/purescript-aff.git",
+    "version": "v5.0.0"
+  },
   "argonaut-core": {
     "dependencies": [
       "arrays",
@@ -47,6 +66,19 @@
     ],
     "repo": "https://github.com/purescript/purescript-assert.git",
     "version": "v4.0.0"
+  },
+  "avar": {
+    "dependencies": [
+      "aff",
+      "effect",
+      "either",
+      "exceptions",
+      "functions",
+      "maybe",
+      "prelude"
+    ],
+    "repo": "https://github.com/slamdata/purescript-avar.git",
+    "version": "v3.0.0"
   },
   "bifunctors": {
     "dependencies": [
@@ -154,6 +186,20 @@
     "repo": "https://github.com/purescript/purescript-distributive.git",
     "version": "v4.0.0"
   },
+  "dom-indexed": {
+    "dependencies": [
+      "datetime",
+      "media-types",
+      "prelude",
+      "web-clipboard",
+      "web-events",
+      "web-html",
+      "web-touchevents",
+      "web-uievents"
+    ],
+    "repo": "https://github.com/slamdata/purescript-dom-indexed.git",
+    "version": "v6.0.0"
+  },
   "effect": {
     "dependencies": [
       "prelude"
@@ -250,6 +296,15 @@
     "repo": "https://github.com/purescript/purescript-foreign-object.git",
     "version": "v1.0.0"
   },
+  "fork": {
+    "dependencies": [
+      "aff",
+      "prelude",
+      "transformers"
+    ],
+    "repo": "https://github.com/slamdata/purescript-fork.git",
+    "version": "v4.0.0"
+  },
   "form-urlencoded": {
     "dependencies": [
       "globals",
@@ -280,6 +335,22 @@
       "unsafe-coerce"
     ],
     "repo": "https://github.com/purescript/purescript-free.git",
+    "version": "v5.0.0"
+  },
+  "freeap": {
+    "dependencies": [
+      "const",
+      "either",
+      "gen",
+      "lists",
+      "newtype",
+      "nonempty",
+      "prelude",
+      "tailrec",
+      "tuples",
+      "unsafe-coerce"
+    ],
+    "repo": "https://github.com/ethul/purescript-freeap.git",
     "version": "v5.0.0"
   },
   "freet": {
@@ -349,6 +420,74 @@
     "dependencies": [],
     "repo": "https://github.com/purescript/purescript-globals.git",
     "version": "v4.0.0"
+  },
+  "halogen": {
+    "dependencies": [
+      "aff",
+      "avar",
+      "bifunctors",
+      "console",
+      "const",
+      "coroutines",
+      "dom-indexed",
+      "effect",
+      "either",
+      "exceptions",
+      "foldable-traversable",
+      "foreign",
+      "fork",
+      "free",
+      "freeap",
+      "freet",
+      "functors",
+      "halogen-vdom",
+      "lazy",
+      "lists",
+      "maybe",
+      "media-types",
+      "newtype",
+      "ordered-collections",
+      "parallel",
+      "prelude",
+      "profunctor",
+      "profunctor-lenses",
+      "refs",
+      "strings",
+      "tailrec",
+      "transformers",
+      "tuples",
+      "unsafe-coerce",
+      "unsafe-reference",
+      "web-clipboard",
+      "web-dom",
+      "web-events",
+      "web-html",
+      "web-touchevents",
+      "web-uievents"
+    ],
+    "repo": "https://github.com/slamdata/purescript-halogen.git",
+    "version": "v4.0.0-rc.1"
+  },
+  "halogen-vdom": {
+    "dependencies": [
+      "arrays",
+      "bifunctors",
+      "effect",
+      "foreign",
+      "foreign-object",
+      "functions",
+      "maybe",
+      "newtype",
+      "nullable",
+      "prelude",
+      "refs",
+      "tuples",
+      "unsafe-coerce",
+      "web-dom",
+      "web-events"
+    ],
+    "repo": "https://github.com/slamdata/purescript-halogen-vdom.git",
+    "version": "v3.0.0"
   },
   "http-methods": {
     "dependencies": [
@@ -691,7 +830,7 @@
       "prelude"
     ],
     "repo": "https://github.com/purescript/purescript-refs.git",
-    "version": "v4.0.0"
+    "version": "v4.1.0"
   },
   "semirings": {
     "dependencies": [
@@ -765,7 +904,7 @@
       "unfoldable"
     ],
     "repo": "https://github.com/purescript/purescript-transformers.git",
-    "version": "v4.0.0"
+    "version": "v4.1.0"
   },
   "tuples": {
     "dependencies": [
