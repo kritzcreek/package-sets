@@ -24,4 +24,6 @@ in  [ contribpkg "arraybuffer-types" "v2.0.0"
     , contribpkg "coroutines" "v5.0.0"
     , contribpkg "js-date" "v6.0.0"
     , contribpkg "options" "v4.0.0"
+    , contribpkg "unicode" "v4.0.0"
+    , contribpkg "string-parsers" "v4.0.0"
     ]

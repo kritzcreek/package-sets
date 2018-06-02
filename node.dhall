@@ -21,4 +21,5 @@ in  [ nodepkg "node-streams" "v4.0.0"
     , nodepkg "node-fs" "v5.0.0"
     , nodepkg "node-readline" "v4.0.0"
     , nodepkg "node-fs-aff" "v6.0.0"
+    , nodepkg "node-child-process" "v5.0.0"
     ]

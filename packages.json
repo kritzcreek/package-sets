@@ -650,6 +650,26 @@
     "repo": "https://github.com/purescript-node/purescript-node-buffer.git",
     "version": "v5.0.0"
   },
+  "node-child-process": {
+    "dependencies": [
+      "control",
+      "effect",
+      "exceptions",
+      "foreign",
+      "foreign-object",
+      "functions",
+      "maybe",
+      "node-buffer",
+      "node-fs",
+      "node-streams",
+      "nullable",
+      "posix-types",
+      "prelude",
+      "unsafe-coerce"
+    ],
+    "repo": "https://github.com/purescript-node/purescript-node-child-process.git",
+    "version": "v5.0.0"
+  },
   "node-fs": {
     "dependencies": [
       "datetime",
@@ -991,6 +1011,23 @@
     "repo": "https://github.com/purescript/purescript-st.git",
     "version": "v4.0.0"
   },
+  "string-parsers": {
+    "dependencies": [
+      "arrays",
+      "bifunctors",
+      "control",
+      "either",
+      "foldable-traversable",
+      "lists",
+      "maybe",
+      "nonempty",
+      "prelude",
+      "strings",
+      "tailrec"
+    ],
+    "repo": "https://github.com/purescript-contrib/purescript-string-parsers.git",
+    "version": "v4.0.0"
+  },
   "strings": {
     "dependencies": [
       "arrays",
@@ -1084,6 +1121,18 @@
       "tuples"
     ],
     "repo": "https://github.com/purescript/purescript-unfoldable.git",
+    "version": "v4.0.0"
+  },
+  "unicode": {
+    "dependencies": [
+      "arrays",
+      "integers",
+      "maybe",
+      "partial",
+      "prelude",
+      "strings"
+    ],
+    "repo": "https://github.com/purescript-contrib/purescript-unicode.git",
     "version": "v4.0.0"
   },
   "unsafe-coerce": {
